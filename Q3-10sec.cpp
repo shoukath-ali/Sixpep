@@ -2,10 +2,16 @@
 #include<iostream>
 #include<vector>
 #include<ctime>
+#include <sstream>
+#include <iterator>
 using namespace std;
 
 int main() {
-    vector<int> v{10,22,5,75,65,80};
+    string input;
+    cout<<"Enter price values: like(1 2 3 4..)"<<endl;
+    getline( cin, input );
+    istringstream is( input );
+    vector<int> v( (istream_iterator<int>( is ) ),istream_iterator<int>() );
     int profit = 0;
     int n;
     int sec= 10;
