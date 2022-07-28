@@ -7,15 +7,11 @@ using namespace std;
 int main() {
     vector<int> v;
     int n;
-    cout<<"Count of entries should be multiple of 2"<<endl;
+    cout<<"No of Transactions allowed per day"<<endl;
     cin>>n;
-    if(n%2!=0){
-        cout<<"Enter valid entrie with total count multiple of 2 (You didn't sell one stock)"<<endl;
-        return 0;
-    }
     int input;
     cout<<"Enter the entries"<<endl;
-    for(int i =0;i<n;i++){
+    while(input!= 0){
         cin>>input;
         v.push_back(input);
     }
@@ -29,8 +25,7 @@ int main() {
         i2++;
         i2++;
     }
-    cout<<"Enter the Max transactions allowed"<<endl;
-    cin>>n;
+
     sort(diff.begin(),diff.end());
     if(n>diff.size()){
         cout<<"Not possible to earn";
@@ -44,4 +39,6 @@ int main() {
     }
     cout<<"Maximun profit for "<<n<<" transactions is :"<<max<<endl;
     return max;
+
+
 }
