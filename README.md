@@ -6,7 +6,7 @@
 
 
 # Q2 = Student Content Management System
-- Here , Json file is created to save data / load previous data of students,(No like NoSql Database - Document database(key-value pair))
+- Here , Json file is created(by default) to save data / load previous data of students,(No like NoSql Database - Document database(key-value pair))
 - Handled Errors
 - Options Available, 1)Add User, 2)Update using ID , 3) Delete Using ID, 4)View using ID or Query using Conditions, 5)Save and Exit, For remaining values,exit without save
 
@@ -16,7 +16,7 @@
 - Allowing total of n transations per day,
 - calculate the Max profit earned per n transactions
 
-#Q3 -10sec Stock-profit per day
-- Assuming stock price changes every 10 seconds and press Buy/ Sell button
+# Q3 -10sec Stock-profit per day
+- Assuming stock price changes every <b> 10</b> seconds and press Buy/ Sell button
 - Allowing total n transactions per day
 - Calculate the max profit earned
