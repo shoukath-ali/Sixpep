@@ -6,7 +6,7 @@
 
 
 # Q2 = Student Content Management System
-- Here , Json file is created to save data / load previous data of students,(No like NoSql Database - Document database(key-value pair))
+- Here , Json file is created(by default) to save data / load previous data of students,(No like NoSql Database - Document database(key-value pair))
 - Handled Errors
 - Options Available, 1)Add User, 2)Update using ID , 3) Delete Using ID, 4)View using ID or Query using Conditions, 5)Save and Exit, For remaining values,exit without save
 
