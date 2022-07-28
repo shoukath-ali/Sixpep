@@ -16,7 +16,7 @@
 - Allowing total of n transations per day,
 - calculate the Max profit earned per n transactions
 
-#Q3 -10sec Stock-profit per day
-- Assuming stock price changes every 10 seconds and press Buy/ Sell button
+# Q3 -10sec Stock-profit per day
+- Assuming stock price changes every <b> 10</b> seconds and press Buy/ Sell button
 - Allowing total n transactions per day
 - Calculate the max profit earned
